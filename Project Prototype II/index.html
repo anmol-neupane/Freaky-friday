@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Music Fest</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!--link to the social media icons-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+  </head>
+  <body>
+    <header><!-- Header section of the website -->
+        <div class="header-content"></div>
+      <h1>FreakyFriday</h1><!-- Main heading of the website -->
+      <div class="cart">
+        <img src="cart.js" alt="cart Icon">
+        <span>0</span>
+      </div>
+      <nav><!-- Navigation menu for the website -->
+        <ul>
+          <li><a href="about.html">About Us</a></li><!-- Link to About section -->
+          <li><a href="lineup.html">Lineup</a></li><!-- Link to lineup section -->
+          <li><a href="tickets.html">Tickets</a></li><!-- Link to tickets section -->
+          <li><a href="contact.html">Contact</a></li><!-- Link to contact section -->
+          <li><a href="video.html">videos</a></li><!-- Link to videos section -->
+        </ul>
+      </nav>
+    </header>
+    <main><!-- Main content of the website -->
+      <section id="banner"><!-- Section for music lineup information -->
+        <h2>Join us for the biggest music festival of the year!</h2><!-- Heading for lineup section -->
+        <a href="#tickets" class="btn">Get Tickets</a>
+      </section>
+      <section id="about"><!-- Section for about information -->
+        <h2>About FreakyFriday</h2><!-- heading for about information -->
+        <p>FreakyFriday is the best music fest which ultimate destination for 
+            music lovers. With a star-studded lineup and a spectacular venue, 
+            it promises to be the most memorable event of the year. Come and experience the 
+            magic of live music, food, and art!</p>
+      </section>
+      <section id="lineup"><!-- Section for lineup information -->
+        <h2>Lineup</h2><!-- heading  for lineup information -->
+        <ul><!-- list of lineup artist information -->
+          <li><span>Headliner:</span> Bruno Mars</li>
+          <li><span>Special Guests:</span> Billie Eilish, Post Malone, Taylor Swift, Drake, and more!</li>
+        </ul>
+      </section>
+      <section id="tickets"><!-- Section for ticket information -->
+        <h2>Tickets</h2><!-- heading for ticket information -->
+        <p>Get your tickets now and be a part of the biggest music festival of the year!</p>
+        <a href="#" class="btn">Buy Tickets</a><!-- link to buy ticket for ticket information -->
+      </section>
+      <section id="contact"><!-- Section for contact information -->
+        <h2>Contact Us</h2>
+        <form><!-- Contact form for users to submit messages -->
+          <label for="name">Name</label><!-- Label for name input field -->
+          <input type="text" id="name" name="name" required><!-- Name input field -->
+          <label for="email">Email</label><!-- Label for email input field -->
+          <input type="email" id="email" name="email" required><!-- email input field -->
+          <label for="message">Message</label><!-- Label for feedback/message input field -->
+          <textarea id="message" name="message" required></textarea><!-- message/feedback input field -->
+          <button type="submit" class="btn">Send</button> <!-- Submit button for form -->
+        </form>
+      </section>
+    </main>
+    <footer><!-- footer section of the website -->
+    <p>&copy; FreakyFriday 2023. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+    </div>
+    </footer>
+    <script src="icons.js"></script>
+  </body>
+</html>
